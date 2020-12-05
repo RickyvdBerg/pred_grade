@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import sklearn
 import keras
 import numpy as np
 
