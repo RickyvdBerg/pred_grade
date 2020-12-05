@@ -64,7 +64,7 @@ dataframe["writing"] = st.sidebar.slider(
     "Writing Skill", min_value=0, max_value=100, value=50, step=1)
 
 st.write("## Model Predict")
-model = keras.models.load_model("student.h5")
+model = keras.models.load_model("student.h5", compile=False)
 dataframe = np.asarray(dataframe).astype(np.float32)
 results = model.predict(dataframe)
 st.write(results)
