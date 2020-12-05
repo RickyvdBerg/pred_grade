@@ -3,7 +3,6 @@ import pandas as pd
 import sklearn
 import keras
 import numpy as np
-from names import get_full_name
 
 st.title("Voorspel je punt voor een wiskunde toets op basis van een aantal gegevens")
 st.write("""
